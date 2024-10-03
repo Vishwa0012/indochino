@@ -1,4 +1,5 @@
 import React from "react";
+import menSuit from "../assets/images/men-suit.png";
 
 const Store = () => {
   return (
@@ -6,7 +7,7 @@ const Store = () => {
       <div className="pt-10 flex flex-col md:flex-row px-8 md:px-32 justify-around gap-8 md:gap-5">
         <div className="flex flex-col items-center text-center">
           <img
-            src="src/assets/images/men-suit.png"
+            src={menSuit}
             className="h-20 w-20 border-2 border-white rounded-full p-2"
             alt="Suit"
           />
@@ -25,7 +26,7 @@ const Store = () => {
 
         <div className="flex flex-col items-center text-center">
           <img
-            src="src/assets/images/men-suit.png"
+            src={menSuit}
             className="h-20 w-20 border-2 border-white rounded-full p-2"
             alt="Suit"
           />
@@ -44,7 +45,7 @@ const Store = () => {
 
         <div className="flex flex-col items-center text-center">
           <img
-            src="src/assets/images/men-suit.png"
+            src={menSuit}
             className="h-20 w-20 border-2 border-white rounded-full p-2"
             alt="Suit"
           />

@@ -1,16 +1,26 @@
 import React from "react";
+import member1 from "../assets/images/model1.jpg";
+import member2 from "../assets/images/model2.jpg";
+import member3 from "../assets/images/model3.jpg";
+import member4 from "../assets/images/model4.jpg";
+import member5 from "../assets/images/model5.jpg";
+import member6 from "../assets/images/model6.jpg";
+import member7 from "../assets/images/model7.jpg";
+import member8 from "../assets/images/model8.jpg";
+import member9 from "../assets/images/model9.jpg";
+import member10 from "../assets/images/model10.jpg";
 
 const members = [
-  { src: "src/assets/images/model1.jpg", alt: "member1" },
-  { src: "src/assets/images/model2.jpg", alt: "member2" },
-  { src: "src/assets/images/model3.jpg", alt: "member3" },
-  { src: "src/assets/images/model4.jpg", alt: "member4" },
-  { src: "src/assets/images/model5.jpg", alt: "member5" },
-  { src: "src/assets/images/model6.jpg", alt: "member6" },
-  { src: "src/assets/images/model7.jpg", alt: "member7" },
-  { src: "src/assets/images/model8.jpg", alt: "member8" },
-  { src: "src/assets/images/model9.jpg", alt: "member9" },
-  { src: "src/assets/images/model10.jpg", alt: "member10" },
+  { src: member1, alt: "member1" },
+  { src: member2, alt: "member2" },
+  { src: member3, alt: "member3" },
+  { src: member4, alt: "member4" },
+  { src: member5, alt: "member5" },
+  { src: member6, alt: "member6" },
+  { src: member7, alt: "member7" },
+  { src: member8, alt: "member8" },
+  { src: member9, alt: "member9" },
+  { src: member10, alt: "member10" },
 ];
 
 const Indochino = () => {
