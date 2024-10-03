@@ -15,11 +15,11 @@ const Herotext = () => {
   };
 
   return (
-    <section className="bg-[#5F9DD8] md:h-[90vh]">
+    <section className="bg-[#5F9DD8] h-auto lg:h-[90vh]">
       <div>
-        <div className="flex flex-col md:flex-row justify-center items-center md:pr-60 p-4">
-          <img src={ronaldo} className="h-auto md:h-[770px] pt-2" alt="Ronaldo" />
-          <div className="md:mb-32 mt-4 md:mt-0 text-center md:text-left">
+        <div className="flex flex-col lg:flex-row justify-center items-center md:pr-60 p-4">
+          <img src={ronaldo} className="h-auto w-full lg:w-[450px] pt-2" alt="Ronaldo" />
+          <div className="lg:mb-32 mt-4 md:mt-0 text-center md:text-left">
             <h1 className="text-4xl md:text-6xl text-white font-bold pb-4">
               THE TAILOR IS IN
             </h1>
