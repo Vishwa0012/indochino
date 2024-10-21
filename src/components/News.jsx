@@ -23,7 +23,7 @@ const News = () => {
         <h1 className="text-4xl  text-white my-16">
           "INDOCHINA:{" "}
           <span className="italic">
-            THE it's-Too-Good-To-Be-
+             It's-Too-Good-To-Be-
             <br />
             True-That's-Actually-True-Custom Suit."
           </span>
@@ -92,3 +92,4 @@ const News = () => {
 };
 
 export default News;
+
